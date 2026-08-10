@@ -1,0 +1,33 @@
+Id,Name,Shape Type,Layer,Connects To,Connector Label
+1,Clinical records,Process,1 Data sources,6,
+2,Claims and cost,Process,1 Data sources,6,
+3,Imaging and signals,Process,1 Data sources,8,
+4,Home and wearable devices,Process,1 Data sources,10,
+5,Patient reported and community,Process,1 Data sources,9,
+6,Standards based exchange,Process,2 Exchange and identity,11,
+7,Patient identity resolution,Process,2 Exchange and identity,11,
+8,Terminology mapping,Process,2 Exchange and identity,13,
+9,Consent and access rules,Process,2 Exchange and identity,15,
+10,Data quality checks,Process,2 Exchange and identity,14,
+11,Person level timeline,Process,3 Longitudinal record,16,
+12,Care setting history,Process,3 Longitudinal record,16,
+13,Measurement series,Process,3 Longitudinal record,17,
+14,Gaps and missingness flags,Process,3 Longitudinal record,17,
+15,Cohort views,Process,3 Longitudinal record,16,
+16,Risk stratification,Process,4 Decision support,20,
+17,Predictive surveillance,Process,4 Decision support,20,
+18,Imaging interpretation,Process,4 Decision support,20,
+19,Documentation support,Process,4 Decision support,20,
+20,Clinician review point,Decision,4 Decision support,21,approved
+20,Clinician review point,Decision,4 Decision support,24,urgent
+21,Care plan assignment,Process,5 Care orchestration,22,
+22,Outreach and scheduling,Process,5 Care orchestration,23,
+23,Treatment adjustment,Process,5 Care orchestration,25,
+24,Escalation path,Process,5 Care orchestration,25,
+25,Cross setting handoff,Process,5 Care orchestration,26,
+26,Outcome capture,Process,6 Outcomes and oversight,27,
+26,Outcome capture,Process,6 Outcomes and oversight,11,new observations
+27,Performance and drift monitoring,Process,6 Outcomes and oversight,28,
+28,Equity review,Process,6 Outcomes and oversight,29,
+29,Accountability and audit,Process,6 Outcomes and oversight,30,
+30,Model update decision,Decision,6 Outcomes and oversight,16,retrain or retire
